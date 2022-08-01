@@ -792,6 +792,10 @@ Typing `quit` will quit the game, but as you’ll notice so will entering any
 other non-number input. This is suboptimal to say the least; we want the game
 to also stop when the correct number is guessed.
 
+### Counting total attemps made by user
+
+We initialize a mutable variable "count" with value 0. We increment it by everytime a player takes a guess. Total attempts are then displayed after player successfully guesses the number.
+
 ### Quitting After a Correct Guess
 
 Let’s program the game to quit when the user wins by adding a `break` statement:
